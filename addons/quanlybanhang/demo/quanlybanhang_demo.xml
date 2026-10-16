@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <record id="hang_samsung" model="hang">
+            <field name="tenhang">Samsung</field>
+            <field name="mahang">1</field>
+            <field name="diachi">Hàn Quốc</field>
+            <field name="sodt">09282828282</field>
+        </record>
+        <record id="hang_nokia" model="hang">
+            <field name="tenhang">Nokia</field>
+            <field name="mahang">2</field>
+            <field name="diachi">Phần Lan</field>
+            <field name="sodt">0928272722</field>
+        </record>
+        <record id="hang_vinfast" model="hang">
+            <field name="tenhang">Vinfast</field>
+            <field name="mahang">3</field>
+            <field name="diachi">Việt Nam</field>
+            <field name="sodt">0928272727</field>
+        </record>
+
+        <record id="nhanvien_anh" model="quanlybanhang.nhanvien">
+            <field name="tennv">Lê Việt Anh</field>
+            <field name="manv">1</field>
+            <field name="gioitinh">nam</field>
+            <field name="sdt">09865544333</field>
+        </record>
+        <record id="nhanvien_quynh" model="quanlybanhang.nhanvien">
+            <field name="tennv">Phan Tuấn Quỳnh</field>
+            <field name="manv">2</field>
+            <field name="gioitinh">nam</field>
+            <field name="sdt">0927272772</field>
+        </record>
+        <record id="nhanvien_tuan" model="quanlybanhang.nhanvien">
+            <field name="tennv">Trần Minh Tuấn</field>
+            <field name="manv">3</field>
+            <field name="gioitinh">nam</field>
+            <field name="sdt">02927272727</field>
+        </record>
+        <record id="nhanvien_van" model="quanlybanhang.nhanvien">
+            <field name="tennv">Vũ Hoàng Vân</field>
+            <field name="manv">4</field>
+            <field name="gioitinh">nu</field>
+            <field name="sdt">0872727272</field>
+        </record>
+
+        <record id="sanpham_vf3" model="sanpham">
+            <field name="masp">3</field>
+            <field name="tensp">VF3</field>
+            <field name="soluong">100</field>
+            <field name="giaban">270000</field>
+            <field name="mausac">vang</field>
+        </record>
+        <record id="sanpham_nikia_i10" model="sanpham">
+            <field name="masp">2</field>
+            <field name="tensp">Nikia i10</field>
+            <field name="soluong">20</field>
+            <field name="giaban">50000</field>
+            <field name="mausac">do</field>
+        </record>
+        <record id="sanpham_galaxy_x25" model="sanpham">
+            <field name="masp">1</field>
+            <field name="tensp">Galaxy X25</field>
+            <field name="soluong">200</field>
+            <field name="giaban">2500000</field>
+            <field name="mausac">xanh</field>
+        </record>
+    </data>
+</odoo>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="phong_view_tree" model="ir.ui.view">
+        <field name="name">phong.view.list</field>
+        <field name="model">phong</field>
+        <field name="arch" type="xml">
+            <list string="Danh sách phòng">
+                <field name="name"/>
+                <field name="depid"/>
+            </list>
+        </field>
+    </record>
+
+    <record id="phong_view_form" model="ir.ui.view">
+        <field name="name">phong.view.form</field>
+        <field name="model">phong</field>
+        <field name="arch" type="xml">
+            <form string="Chi tiết phòng">
+                <sheet>
+                    <group>
+                        <field name="name"/>
+                        <field name="depid"/>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="nhanvien_view_tree" model="ir.ui.view">
+        <field name="name">nhanvien.view.list</field>
+        <field name="model">nhanvien</field>
+        <field name="arch" type="xml">
+            <list string="Danh sách nhân viên">
+                <field name="name"/>
+                <field name="empid" options="{'enable_formatting': False}" width="160px"/>
+                <field name="gender"/>
+                <field name="phone"/>
+            </list>
+        </field>
+    </record>
+
+    <record id="nhanvien_view_form" model="ir.ui.view">
+        <field name="name">nhanvien.view.form</field>
+        <field name="model">nhanvien</field>
+        <field name="arch" type="xml">
+            <form string="Chi tiết nhân viên">
+                <sheet>
+                    <group>
+                        <field name="name"/>
+                        <field name="empid" options="{'enable_formatting': False}"/>
+                        <field name="gender"/>
+                        <field name="phone"/>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="phong_action_window" model="ir.actions.act_window">
+        <field name="name">Quản lý phòng</field>
+        <field name="res_model">phong</field>
+        <field name="view_mode">list,form</field>
+    </record>
+
+    <record id="nhanvien_action_window" model="ir.actions.act_window">
+        <field name="name">Quản lý nhân viên</field>
+        <field name="res_model">nhanvien</field>
+        <field name="view_mode">list,form</field>
+    </record>
+
+    <menuitem id="main_menu_root"
+              name="Quản lý nhân sự"
+              web_icon="ql_nhansu,static/description/icon.png"
+              sequence="10"/>
+    <menuitem id="phong_menu"
+              name="Quản lý phòng"
+              parent="main_menu_root"
+              action="phong_action_window"
+              sequence="10"/>
+    <menuitem id="nhanvien_menu"
+              name="Quản lý nhân viên"
+              parent="main_menu_root"
+              action="nhanvien_action_window"
+              sequence="20"/>
+</odoo>

@@ -1,0 +1,21 @@
+# Python cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Local credentials and runtime configuration
+.env
+.env.*
+!.env.example
+/config/odoo.conf
+
+# Temporary extraction, browser debugging and verification working files
+/tmp/
+
+# Editor and OS files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db

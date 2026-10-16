@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <record id="phong_nhansu" model="phong">
+            <field name="name">Nhân sự</field>
+            <field name="depid">100</field>
+        </record>
+        <record id="phong_kehoach" model="phong">
+            <field name="name">Kế hoạch</field>
+            <field name="depid">120</field>
+        </record>
+
+        <record id="nhanvien_huan" model="nhanvien">
+            <field name="name">Than Ngoc Huan</field>
+            <field name="empid">2023606980</field>
+        </record>
+        <record id="nhanvien_hoa" model="nhanvien">
+            <field name="name">Nguyễn Thị Hoa</field>
+            <field name="empid">11111</field>
+            <field name="gender">nu</field>
+            <field name="phone">0901111111</field>
+        </record>
+        <record id="nhanvien_binh" model="nhanvien">
+            <field name="name">Bùi Văn Bình</field>
+            <field name="empid">22222</field>
+            <field name="gender">nam</field>
+            <field name="phone">0902222222</field>
+        </record>
+    </data>
+</odoo>

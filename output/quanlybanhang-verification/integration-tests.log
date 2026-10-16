@@ -1,0 +1,58 @@
+2026-10-16 07:23:34,249 148 INFO ? odoo: Odoo version 20.0-20261015
+2026-10-16 07:23:34,250 148 INFO ? odoo: Using configuration file at /etc/odoo/odoo.conf
+2026-10-16 07:23:34,250 148 INFO ? odoo: addons paths: _NamespacePath(['/usr/lib/python3/dist-packages/odoo/addons', '/var/lib/odoo/addons/20.0', '/mnt/extra-addons', '/usr/lib/python3/dist-packages/addons'])
+2026-10-16 07:23:34,251 148 INFO ? odoo: database: odoo@db:5432
+2026-10-16 07:23:34,647 148 INFO ? odoo.service.server: HTTP service running on 0.0.0.0:8079
+2026-10-16 07:23:34,654 148 INFO quanlybanhang_verify_20261016 odoo.tests.common: Importing test framework
+2026-10-16 07:23:34,673 148 INFO quanlybanhang_verify_20261016 odoo.modules.loading: loading 1 modules...
+2026-10-16 07:23:34,676 148 INFO quanlybanhang_verify_20261016 odoo.modules.loading: 1 modules loaded in 0.00s, 0 queries (+0 extra)
+2026-10-16 07:23:34,706 148 INFO quanlybanhang_verify_20261016 odoo.modules.loading: updating modules list
+2026-10-16 07:23:34,707 148 INFO quanlybanhang_verify_20261016 odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via n/a
+2026-10-16 07:23:35,377 148 INFO quanlybanhang_verify_20261016 odoo.addons.base.models.ir_module: ALLOW access to module.button_install on ['Than Ngoc Huan - 2023606980'] to user __system__ #1 via n/a
+2026-10-16 07:23:35,408 148 INFO quanlybanhang_verify_20261016 odoo.addons.base.models.ir_module: ALLOW access to module.button_upgrade on ['QLBanHang'] to user __system__ #1 via n/a
+2026-10-16 07:23:35,408 148 INFO quanlybanhang_verify_20261016 odoo.addons.base.models.ir_module: ALLOW access to module.update_list on ['QLBanHang'] to user __system__ #1 via n/a
+2026-10-16 07:23:35,949 148 INFO quanlybanhang_verify_20261016 odoo.addons.base.models.ir_module: ALLOW access to module.button_install on [] to user __system__ #1 via n/a
+2026-10-16 07:23:35,965 148 INFO quanlybanhang_verify_20261016 odoo.modules.loading: loading 18 modules...
+2026-10-16 07:23:35,966 148 INFO quanlybanhang_verify_20261016 odoo.modules.loading: Loading module quanlybanhang (3/18)
+2026-10-16 07:23:36,050 148 INFO quanlybanhang_verify_20261016 odoo.registry: module quanlybanhang: creating or updating database tables
+2026-10-16 07:23:36,088 148 INFO quanlybanhang_verify_20261016 odoo.modules.loading: loading quanlybanhang/security/ir.access.csv
+2026-10-16 07:23:36,113 148 INFO quanlybanhang_verify_20261016 odoo.modules.loading: loading quanlybanhang/views/quanlybanhang_views.xml
+2026-10-16 07:23:36,245 148 INFO quanlybanhang_verify_20261016 odoo.registry: Registry changed, signaling through the database
+2026-10-16 07:23:36,324 148 INFO quanlybanhang_verify_20261016 odoo.modules.loading: Module quanlybanhang loaded in 0.36s, 180 queries (+180 other)
+2026-10-16 07:23:36,455 148 WARNING quanlybanhang_verify_20261016 odoo.addons.mail.controllers.attachment: markdown2 is not installed, markdown will not be rendered
+2026-10-16 07:23:36,463 148 INFO quanlybanhang_verify_20261016 odoo.modules.loading: Loading module ql_nhansu (18/18)
+2026-10-16 07:23:36,541 148 INFO quanlybanhang_verify_20261016 odoo.registry: module ql_nhansu: creating or updating database tables
+2026-10-16 07:23:36,583 148 INFO quanlybanhang_verify_20261016 odoo.modules.loading: loading ql_nhansu/security/ir.access.csv
+2026-10-16 07:23:36,599 148 INFO quanlybanhang_verify_20261016 odoo.modules.loading: loading ql_nhansu/views/views.xml
+2026-10-16 07:23:36,649 148 INFO quanlybanhang_verify_20261016 odoo.modules.loading: loading ql_nhansu/views/templates.xml
+2026-10-16 07:23:36,693 148 INFO quanlybanhang_verify_20261016 odoo.registry: Registry changed, signaling through the database
+2026-10-16 07:23:36,744 148 INFO quanlybanhang_verify_20261016 odoo.modules.loading: Module ql_nhansu loaded in 0.28s, 143 queries (+143 other)
+2026-10-16 07:23:36,745 148 INFO quanlybanhang_verify_20261016 odoo.modules.loading: 18 modules loaded in 0.78s, 323 queries (+323 extra)
+2026-10-16 07:23:36,821 148 INFO quanlybanhang_verify_20261016 odoo.registry: verifying fields for every extended model
+2026-10-16 07:23:36,969 148 INFO quanlybanhang_verify_20261016 odoo.modules.loading: Modules loaded.
+2026-10-16 07:23:36,972 148 INFO quanlybanhang_verify_20261016 odoo.registry: Registry changed, signaling through the database
+2026-10-16 07:23:36,974 148 INFO quanlybanhang_verify_20261016 odoo.registry: Registry loaded in 2.324s
+2026-10-16 07:23:36,974 148 INFO quanlybanhang_verify_20261016 odoo.service.server: Starting post tests
+2026-10-16 07:23:37,009 148 INFO quanlybanhang_verify_20261016 odoo.addons.ql_nhansu.tests.test_ql_nhansu: Starting TestQlNhanSu.test_internal_user_manages_departments_from_form ...
+2026-10-16 07:23:37,040 148 INFO quanlybanhang_verify_20261016 odoo.models.unlink: User #11 deleted phong records with IDs: [1]
+2026-10-16 07:23:37,041 148 INFO quanlybanhang_verify_20261016 odoo.addons.ql_nhansu.tests.test_ql_nhansu: Starting TestQlNhanSu.test_internal_user_manages_employees_from_form ...
+2026-10-16 07:23:37,058 148 INFO quanlybanhang_verify_20261016 odoo.models.unlink: User #11 deleted nhanvien records with IDs: [1]
+2026-10-16 07:23:37,059 148 INFO quanlybanhang_verify_20261016 odoo.addons.ql_nhansu.tests.test_ql_nhansu: Starting TestQlNhanSu.test_portal_user_cannot_read_personnel_records ...
+2026-10-16 07:23:37,072 148 INFO quanlybanhang_verify_20261016 odoo.addons.base.models.ir_attachment: filestore gc 3 checked, 1 removed
+2026-10-16 07:23:37,095 148 INFO quanlybanhang_verify_20261016 odoo.addons.quanlybanhang.tests.test_quanlybanhang: Starting TestQuanLyBanHang.test_internal_user_manages_brands_from_form ...
+2026-10-16 07:23:37,122 148 INFO quanlybanhang_verify_20261016 odoo.models.unlink: User #13 deleted hang records with IDs: [2]
+2026-10-16 07:23:37,122 148 INFO quanlybanhang_verify_20261016 odoo.addons.quanlybanhang.tests.test_quanlybanhang: Starting TestQuanLyBanHang.test_internal_user_manages_products_from_form ...
+2026-10-16 07:23:37,139 148 INFO quanlybanhang_verify_20261016 odoo.models.unlink: User #13 deleted sanpham records with IDs: [3]
+2026-10-16 07:23:37,141 148 INFO quanlybanhang_verify_20261016 odoo.addons.quanlybanhang.tests.test_quanlybanhang: Starting TestQuanLyBanHang.test_internal_user_manages_sales_employees_from_form ...
+2026-10-16 07:23:37,158 148 INFO quanlybanhang_verify_20261016 odoo.models.unlink: User #13 deleted quanlybanhang.nhanvien records with IDs: [2]
+2026-10-16 07:23:37,159 148 INFO quanlybanhang_verify_20261016 odoo.addons.quanlybanhang.tests.test_quanlybanhang: Starting TestQuanLyBanHang.test_portal_cannot_read_sales_data ...
+2026-10-16 07:23:37,177 148 INFO quanlybanhang_verify_20261016 odoo.addons.quanlybanhang.tests.test_quanlybanhang: Starting TestQuanLyBanHang.test_product_import_export_preserves_codes_and_values ...
+2026-10-16 07:23:37,189 148 INFO quanlybanhang_verify_20261016 odoo.addons.base.models.ir_attachment: filestore gc 1 checked, 1 removed
+2026-10-16 07:23:37,190 148 INFO quanlybanhang_verify_20261016 odoo.service.server: 8 post-tests in 0.22s, 271 queries
+2026-10-16 07:23:37,190 148 INFO quanlybanhang_verify_20261016 odoo.tests.stats: ql_nhansu: 5 tests 0.09s 110 queries
+2026-10-16 07:23:37,190 148 INFO quanlybanhang_verify_20261016 odoo.tests.stats: quanlybanhang: 7 tests 0.12s 161 queries
+2026-10-16 07:23:37,190 148 INFO quanlybanhang_verify_20261016 odoo.tests.result: 0 failed, 0 error(s) of 8 tests when loading database 'quanlybanhang_verify_20261016'
+2026-10-16 07:23:37,190 148 INFO quanlybanhang_verify_20261016 odoo.service.server.ThreadedServer: Initiating shutdown
+2026-10-16 07:23:37,190 148 INFO quanlybanhang_verify_20261016 odoo.service.server.ThreadedServer: Hit CTRL-C again or send a second signal to force the shutdown.
+2026-10-16 07:23:37,190 148 INFO quanlybanhang_verify_20261016 odoo.addons.bus.websocket: Disconnecting 0 websockets
+2026-10-16 07:23:37,291 148 INFO quanlybanhang_verify_20261016 odoo.sql_db: ConnectionPool(read/write;used=0/count=0/max=64): Closed 1 connections 

@@ -1,0 +1,3 @@
+id,name,model_id,group_id/id,operation,domain
+access_phong_user,access.phong.user,phong,base.group_user,crud,
+access_nhanvien_user,access.nhanvien.user,nhanvien,base.group_user,crud,

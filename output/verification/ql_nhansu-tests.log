@@ -1,0 +1,41 @@
+2026-10-16 07:03:06,707 61 INFO ? odoo: Odoo version 20.0-20261015
+2026-10-16 07:03:06,708 61 INFO ? odoo: Using configuration file at /etc/odoo/odoo.conf
+2026-10-16 07:03:06,708 61 INFO ? odoo: addons paths: _NamespacePath(['/usr/lib/python3/dist-packages/odoo/addons', '/var/lib/odoo/addons/20.0', '/mnt/extra-addons', '/usr/lib/python3/dist-packages/addons'])
+2026-10-16 07:03:06,708 61 INFO ? odoo: database: odoo@db:5432
+2026-10-16 07:03:07,244 61 INFO ? odoo.service.server: HTTP service running on 0.0.0.0:8079
+2026-10-16 07:03:07,252 61 INFO ql_nhansu_verify_20261016 odoo.tests.common: Importing test framework
+2026-10-16 07:03:07,269 61 INFO ql_nhansu_verify_20261016 odoo.modules.loading: loading 1 modules...
+2026-10-16 07:03:07,272 61 INFO ql_nhansu_verify_20261016 odoo.modules.loading: 1 modules loaded in 0.00s, 0 queries (+0 extra)
+2026-10-16 07:03:07,296 61 INFO ql_nhansu_verify_20261016 odoo.modules.loading: updating modules list
+2026-10-16 07:03:07,298 61 INFO ql_nhansu_verify_20261016 odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via n/a
+2026-10-16 07:03:08,712 61 INFO ql_nhansu_verify_20261016 odoo.addons.base.models.ir_module: ALLOW access to module.button_upgrade on ['Than Ngoc Huan - 2023606980'] to user __system__ #1 via n/a
+2026-10-16 07:03:08,712 61 INFO ql_nhansu_verify_20261016 odoo.addons.base.models.ir_module: ALLOW access to module.update_list on ['Than Ngoc Huan - 2023606980'] to user __system__ #1 via n/a
+2026-10-16 07:03:09,234 61 INFO ql_nhansu_verify_20261016 odoo.addons.base.models.ir_module: ALLOW access to module.button_install on [] to user __system__ #1 via n/a
+2026-10-16 07:03:09,259 61 INFO ql_nhansu_verify_20261016 odoo.modules.loading: loading 17 modules...
+2026-10-16 07:03:09,261 61 INFO ql_nhansu_verify_20261016 odoo.modules.loading: Loading module ql_nhansu (3/17)
+2026-10-16 07:03:09,319 61 INFO ql_nhansu_verify_20261016 odoo.registry: module ql_nhansu: creating or updating database tables
+2026-10-16 07:03:09,356 61 INFO ql_nhansu_verify_20261016 odoo.modules.loading: loading ql_nhansu/security/ir.access.csv
+2026-10-16 07:03:09,375 61 INFO ql_nhansu_verify_20261016 odoo.modules.loading: loading ql_nhansu/views/views.xml
+2026-10-16 07:03:09,441 61 INFO ql_nhansu_verify_20261016 odoo.modules.loading: loading ql_nhansu/views/templates.xml
+2026-10-16 07:03:09,487 61 INFO ql_nhansu_verify_20261016 odoo.registry: Registry changed, signaling through the database
+2026-10-16 07:03:09,522 61 INFO ql_nhansu_verify_20261016 odoo.modules.loading: Module ql_nhansu loaded in 0.26s, 145 queries (+145 other)
+2026-10-16 07:03:09,792 61 WARNING ql_nhansu_verify_20261016 odoo.addons.mail.controllers.attachment: markdown2 is not installed, markdown will not be rendered
+2026-10-16 07:03:09,812 61 INFO ql_nhansu_verify_20261016 odoo.modules.loading: 17 modules loaded in 0.55s, 145 queries (+145 extra)
+2026-10-16 07:03:09,907 61 INFO ql_nhansu_verify_20261016 odoo.registry: verifying fields for every extended model
+2026-10-16 07:03:10,086 61 INFO ql_nhansu_verify_20261016 odoo.modules.loading: Modules loaded.
+2026-10-16 07:03:10,088 61 INFO ql_nhansu_verify_20261016 odoo.registry: Registry changed, signaling through the database
+2026-10-16 07:03:10,101 61 INFO ql_nhansu_verify_20261016 odoo.registry: Registry loaded in 2.854s
+2026-10-16 07:03:10,101 61 INFO ql_nhansu_verify_20261016 odoo.service.server: Starting post tests
+2026-10-16 07:03:10,139 61 INFO ql_nhansu_verify_20261016 odoo.addons.ql_nhansu.tests.test_ql_nhansu: Starting TestQlNhanSu.test_internal_user_manages_departments_from_form ...
+2026-10-16 07:03:10,170 61 INFO ql_nhansu_verify_20261016 odoo.models.unlink: User #11 deleted phong records with IDs: [3]
+2026-10-16 07:03:10,170 61 INFO ql_nhansu_verify_20261016 odoo.addons.ql_nhansu.tests.test_ql_nhansu: Starting TestQlNhanSu.test_internal_user_manages_employees_from_form ...
+2026-10-16 07:03:10,190 61 INFO ql_nhansu_verify_20261016 odoo.models.unlink: User #11 deleted nhanvien records with IDs: [3]
+2026-10-16 07:03:10,191 61 INFO ql_nhansu_verify_20261016 odoo.addons.ql_nhansu.tests.test_ql_nhansu: Starting TestQlNhanSu.test_portal_user_cannot_read_personnel_records ...
+2026-10-16 07:03:10,209 61 INFO ql_nhansu_verify_20261016 odoo.addons.base.models.ir_attachment: filestore gc 2 checked, 1 removed
+2026-10-16 07:03:10,210 61 INFO ql_nhansu_verify_20261016 odoo.service.server: 3 post-tests in 0.11s, 110 queries
+2026-10-16 07:03:10,210 61 INFO ql_nhansu_verify_20261016 odoo.tests.stats: ql_nhansu: 5 tests 0.10s 110 queries
+2026-10-16 07:03:10,210 61 INFO ql_nhansu_verify_20261016 odoo.tests.result: 0 failed, 0 error(s) of 3 tests when loading database 'ql_nhansu_verify_20261016'
+2026-10-16 07:03:10,210 61 INFO ql_nhansu_verify_20261016 odoo.service.server.ThreadedServer: Initiating shutdown
+2026-10-16 07:03:10,210 61 INFO ql_nhansu_verify_20261016 odoo.service.server.ThreadedServer: Hit CTRL-C again or send a second signal to force the shutdown.
+2026-10-16 07:03:10,210 61 INFO ql_nhansu_verify_20261016 odoo.addons.bus.websocket: Disconnecting 0 websockets
+2026-10-16 07:03:10,311 61 INFO ql_nhansu_verify_20261016 odoo.sql_db: ConnectionPool(read/write;used=0/count=0/max=64): Closed 1 connections 

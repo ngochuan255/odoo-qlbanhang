@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="hang_view_list" model="ir.ui.view">
+        <field name="name">hang.view.list</field>
+        <field name="model">hang</field>
+        <field name="arch" type="xml">
+            <list string="Danh sách hãng">
+                <field name="tenhang"/>
+                <field name="mahang" options="{'enable_formatting': False}" width="140px"/>
+                <field name="diachi"/>
+                <field name="sodt"/>
+            </list>
+        </field>
+    </record>
+    <record id="hang_view_form" model="ir.ui.view">
+        <field name="name">hang.view.form</field>
+        <field name="model">hang</field>
+        <field name="arch" type="xml">
+            <form string="Chi tiết hãng">
+                <sheet>
+                    <group>
+                        <field name="tenhang"/>
+                        <field name="mahang" options="{'enable_formatting': False}"/>
+                        <field name="diachi"/>
+                        <field name="sodt"/>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="nhanvien_view_list" model="ir.ui.view">
+        <field name="name">quanlybanhang.nhanvien.view.list</field>
+        <field name="model">quanlybanhang.nhanvien</field>
+        <field name="arch" type="xml">
+            <list string="Danh sách nhân viên">
+                <field name="tennv"/>
+                <field name="manv" options="{'enable_formatting': False}" width="160px"/>
+                <field name="gioitinh"/>
+                <field name="sdt"/>
+            </list>
+        </field>
+    </record>
+    <record id="nhanvien_view_form" model="ir.ui.view">
+        <field name="name">quanlybanhang.nhanvien.view.form</field>
+        <field name="model">quanlybanhang.nhanvien</field>
+        <field name="arch" type="xml">
+            <form string="Chi tiết nhân viên">
+                <sheet>
+                    <group>
+                        <field name="tennv"/>
+                        <field name="manv" options="{'enable_formatting': False}"/>
+                        <field name="gioitinh"/>
+                        <field name="sdt"/>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="sanpham_view_list" model="ir.ui.view">
+        <field name="name">sanpham.view.list</field>
+        <field name="model">sanpham</field>
+        <field name="arch" type="xml">
+            <list string="Danh sách sản phẩm">
+                <field name="tensp"/>
+                <field name="masp"/>
+                <field name="soluong"/>
+                <field name="giaban"/>
+                <field name="mausac"/>
+            </list>
+        </field>
+    </record>
+    <record id="sanpham_view_form" model="ir.ui.view">
+        <field name="name">sanpham.view.form</field>
+        <field name="model">sanpham</field>
+        <field name="arch" type="xml">
+            <form string="Chi tiết sản phẩm">
+                <sheet>
+                    <group>
+                        <field name="masp"/>
+                        <field name="tensp"/>
+                        <field name="soluong"/>
+                        <field name="giaban"/>
+                        <field name="mausac"/>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="hang_action_window" model="ir.actions.act_window">
+        <field name="name">Quản lý hãng</field>
+        <field name="res_model">hang</field>
+        <field name="view_mode">list,form</field>
+    </record>
+    <record id="nhanvien_action_window" model="ir.actions.act_window">
+        <field name="name">Quản lý nhân viên</field>
+        <field name="res_model">quanlybanhang.nhanvien</field>
+        <field name="view_mode">list,form</field>
+    </record>
+    <record id="sanpham_action_window" model="ir.actions.act_window">
+        <field name="name">Quản lý sản phẩm</field>
+        <field name="res_model">sanpham</field>
+        <field name="view_mode">list,form</field>
+    </record>
+
+    <menuitem id="main_menu_root"
+              name="Quản lý Bán Hàng"
+              web_icon="quanlybanhang,static/description/icon.png"
+              sequence="20"/>
+    <menuitem id="hang_menu" name="Quản lý hãng" parent="main_menu_root"
+              action="hang_action_window" sequence="10"/>
+    <menuitem id="nhanvien_menu" name="Quản lý nhân viên" parent="main_menu_root"
+              action="nhanvien_action_window" sequence="20"/>
+    <menuitem id="sanpham_menu" name="Quản lý sản phẩm" parent="main_menu_root"
+              action="sanpham_action_window" sequence="30"/>
+</odoo>

@@ -2,7 +2,6 @@ from odoo.exceptions import AccessError
 from odoo.tests import Form, TransactionCase, tagged
 from odoo.tests.common import new_test_user
 
-
 @tagged('post_install', '-at_install')
 class TestQuanLyBanHang(TransactionCase):
     @classmethod
